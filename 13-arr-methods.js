@@ -65,4 +65,10 @@ var costoTotal = articulos.reduce(function(totalActual, articulo){
 
 console.log(costoTotal);
 
-//
+// Método Includes
+
+var numeros = [1, 2, 3, 4, 5, 6];
+
+var incluyeNumero = numeros.includes(2);
+
+console.log(incluyeNumero);
