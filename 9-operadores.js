@@ -4,6 +4,7 @@
 50 - 10
 10 * 3
 20 / 2
+10 % 2
 
 "Diego" + "Saavedra"
 
@@ -31,12 +32,14 @@ a && b // operador And
 
 true || false; // operador Or
 
+!false //operador not (no)
+
 var edad = 40;
 
 edad++;
 edad--;
 
-edad += 2;
+edad += 3;
 
 
 
