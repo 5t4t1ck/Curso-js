@@ -55,3 +55,14 @@ var articulosBaratos = articulos.every(function(articulo){
 
 console.log(articulosBaratos);
 
+// Metodo Reduce
+
+// Este método corre una función en cada elemento del array, para comenzar a sumar los costos de cada elemento y al final nos retorna un true o false
+
+var costoTotal = articulos.reduce(function(totalActual, articulo){
+    return articulo.costo + totalActual;
+}, 0) // El 0 será la cantidad inicial con la que comenzará el totalActual.
+
+console.log(costoTotal);
+
+//
