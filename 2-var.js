@@ -10,3 +10,9 @@ var persona = {
     edad: 30
 }
 
+let nombre = "Diego";
+
+const pi = 3.1416;
+
+console.log(nombre)
+console.log(pi)

@@ -4,7 +4,7 @@ function miFuncion(){ //Funcion declaracion
 
 miFuncion(); //mandamos a llamar a la función
 
-var miFuncion = function(a, b){ //funciton Expressiohn
+var miFuncion = function(a, b){ //funciton Expression
     return a + b
 }
 
@@ -14,4 +14,12 @@ function saludarEstudiante(estudiante){
 
 function suma(a, b){
     var resultado = a + b;
+}
+
+// Ejemplo.
+
+ejemplo()
+
+function ejemplo(){
+    console.log("Esto es un ejemplo de una función declarativa")
 }
